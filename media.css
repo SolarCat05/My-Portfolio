@@ -1,0 +1,104 @@
+/* Mobile Devices */
+@media screen and (max-width:480px){
+    body{
+        text-align: center;
+    }
+    section{
+        margin: 0 2rem;
+    }
+    article{
+        font-size: 1rem;
+    }
+
+    /* PROFILE */
+
+    #profile{
+        display: flex;
+        flex-wrap: wrap;
+        height: 150vh;
+    }
+
+   
+    /* ABOUT */
+
+    #about{
+        
+    }
+
+    .about-container{
+        flex-wrap: wrap;
+    }
+
+    .about-container-2{
+        flex-wrap: wrap;
+    }
+
+    .section__pic-container{
+        margin: 0 auto;
+    }
+    
+    .section__pic-container img{
+        width: 200px;
+    }
+
+    .details-container{
+        width: 140px;
+        text-align: center;
+        padding: 0.8rem;
+        margin-top: 0.2rem;
+        margin-bottom: 1rem;
+        line-height: 1.6rem;
+        border-radius: 15%;
+    }
+
+    /* EXPERIENCE */
+
+    #experience{
+        
+    }
+
+    .experience-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .experience-details{
+        height: 80vh;
+        margin-left: 0 auto;
+    }
+
+    /* CONTACT */
+
+    #contact{
+        height: 50vh;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 50px;
+    }
+    footer{
+        height: 1vh;
+    }
+
+}
+
+/* Tablet devices */
+@media screen and (max-width:768px){
+
+}
+
+/* Small Screens,LAPTOPS */
+@media screen and (max-width:1024px){
+    
+}
+
+/* DESKTOPS */
+@media screen and (max-width:1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+}
+
+
