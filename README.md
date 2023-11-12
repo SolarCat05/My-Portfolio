@@ -1,2 +1,2 @@
 # My-Portfolio
-Inspired from a youtube tutorial.
+My portfolio which I took Inspiration from a youtube tutorial.
