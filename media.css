@@ -15,17 +15,34 @@
     #profile{
         display: flex;
         flex-wrap: wrap;
-        height: 150vh;
+        height: 100vh;
+        gap: 0;
+      
+    }
+    .pic-container{    
+        margin: auto 0;  
+        height: 200px;
+        width: 200px;
+    }
+    .section__text__p1,.section__text__desc{
+        font-size: 1.3rem;
+    }
+    .title{
+        font-size:2rem;
     }
 
-   
     /* ABOUT */
 
     #about{
         
     }
-
+   
+    .text-container-inside p{
+        font-size: 1rem;
+    }
+   
     .about-container{
+        margin-top: 1.4rem;
         flex-wrap: wrap;
     }
 
@@ -38,11 +55,11 @@
     }
     
     .section__pic-container img{
-        width: 200px;
+        width: 150px;
     }
 
     .details-container{
-        width: 140px;
+        width: 90%;
         text-align: center;
         padding: 0.8rem;
         margin-top: 0.2rem;
@@ -54,7 +71,7 @@
     /* EXPERIENCE */
 
     #experience{
-        
+        height: 240vh;
     }
 
     .experience-container{
@@ -67,6 +84,19 @@
         margin-left: 0 auto;
     }
 
+    /* PROJECTS  */
+    #projects{
+        height: 180vh;
+     
+    }
+    .projects-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .project-1{
+        width: 100%;
+    }
+
     /* CONTACT */
 
     #contact{
@@ -75,10 +105,20 @@
         padding-bottom: 0;
         padding-top: 50px;
     }
-    footer{
-        height: 1vh;
+    .contact-details{
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    .contact-details-1 p{
+        font-size: 0.8rem;
     }
 
+    footer{
+       
+    }
+    .icon{
+        width: 20px;
+    }
 }
 
 /* Tablet devices */
